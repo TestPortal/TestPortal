@@ -1,0 +1,98 @@
+!!! 5
+// This site was created in Webflow. http://www.webflow.com
+// Last Published: Sat Dec 07 2013 17:46:45 GMT+0000 (UTC)
+html(data-wf-site='5294bc2925fef5713700071e')
+  head
+    meta(charset='utf-8')
+    title Slate Template
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', type='text/css', href='css/normalize.css')
+    link(rel='stylesheet', type='text/css', href='../lib/bs/css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', href='css/t4test.webflow.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js')
+    script
+      WebFont.load({
+      google : {
+      families : [ "Montserrat:400,700", "Bitter:400,700",
+      "Great Vibes:400" ]
+      }
+      });
+    link(rel='stylesheet', href='../lib/bs/js/bootstrap.min.js')
+    link(rel='stylesheet', href='css/style.css')
+  body(background='../images/gh-enterprise-bg.jpg')
+    .background
+      header.section
+        
+        .container
+          .row
+            .col-md-4.subfooter-left
+              .app-name T4Test
+            .col-md-8.nav-column
+              .header.username Welcome Guest
+          .nav.navbar-default(role='navigation')
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#') Home
+            .collapse.navbar-collapse
+                ul.nav.navbar-nav
+                    li.active
+                        a(href='#') Home
+                    li 
+                        a(href='#') Test
+                    li.dropdown
+                      a.dropdown-toggle(href='#', data-toggle='dropdown')
+                        | Dropdown
+                        b.caret
+                      ul.dropdown-menu
+                        li
+                          a(href='#') Action
+                        li
+                          a(href='#') Another action
+                        li
+                          a(href='#') Something else here
+                        li.divider
+                        li
+                          a(href='#') Separated link
+                        li.divider
+                        li
+                          a(href='#') One more separated link
+    .main-container
+      .container.middle
+        .row
+          .col-md-9
+            p.description Take a Free test
+          .col-md-3
+            .form-section
+              .form
+                form(role='form')
+                  .form-group
+                    label.formlabel(for='name') Name:
+                    input.form-control(name='name', type='text', placeholder='Enter your name', data-name='Name', required='required')
+                  .form-group
+                    label.formlabel(for='email') Email Address:
+                    input.form-control(type='text', placeholder='Enter your email address', name='email', data-name='Email', required='required')
+                  .form-group
+                    label.formlabel Password
+                    input.form-control(type='text', placeholder='password', name='password', required='required', data-name='Password')
+                  .form-group
+                    label.formlabel Confirm Password
+                    input.form-control(type='text', placeholder='confirm password', name='cpassword', required='required', data-name='cPassword')
+                  input.btn.btn-success.col-md-12(type='submit', value='Submit', data-wait='Please wait...')
+    footer.footer
+        .container
+            .row
+                .col-md-4
+                    h3
+                        |Section 1
+                .col-md-4
+                    h3
+                        |Section 2
+                .col-md-4
+                    h3
+                        |Section 3
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script(type='text/javascript', src='js/webflow.js')
