@@ -1,3 +1,4 @@
+
 BODY
 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -169,11 +170,7 @@ P
 	background-color: rgba(0, 0, 0, 0);
 	color: #FFFFFF;
 }
-.background
-{
-	background-color: #000000;
-	background-image: url(../images/gh-enterprise-bg.jpg);
-}
+
 .loginform
 {
 	display: block;
@@ -195,10 +192,8 @@ P
 }
 .description
 {
-	padding-top: 43px;
-	padding-left: 52px;
-	color: #FFFFFF;
-	font-size: 59px;
+	padding: 30px;
+	font-size: 40px;
 	font-style: normal;
 	font-weight: 700;
 }
@@ -276,4 +271,20 @@ P
 	{
 		text-align: center;
 	}
+}
+.panel-heading{
+	padding:5px 7px
+}
+.border-right{
+	border-right:5px solid rgba(0,0,0,0);
+}
+.main-container2>*{
+	border:1px solid
+}
+.main-container2{
+	overflow:auto;
+}
+.panels .panel-body{
+	max-height:175px;
+	overflow:auto;
 }

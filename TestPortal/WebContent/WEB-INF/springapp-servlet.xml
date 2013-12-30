@@ -13,11 +13,11 @@
 	<!-- the application context definition for the springapp DispatcherServlet -->
 
 	<context:component-scan
-		base-package="" />
+		base-package="com.portal.controller" />
 
 	<mvc:annotation-driven />
 	
-	<context:property-placeholder location="classpath:messages.properties" />	
+	<!-- <context:property-placeholder location="classpath:messages.properties" />	 -->
 	
 	<!-- If no extension matched, use JSP view -->
 
@@ -30,8 +30,5 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
-	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="messages" />
-	</bean>	
 
 </beans>
