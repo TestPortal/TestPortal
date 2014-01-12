@@ -52,58 +52,75 @@
 		</div>
 	</header>
 	<div class=container>
-		<div class="module padded margin">
-			<div class="border padded">
-				<p class=lead>Question No: 1</p>
-				<p>Aquarius (Jan 23 - Feb 22) You have an inventive mind and are
-					inclined to be progressive. You lie a great deal. You make the same
-					mistakes repeatedly because you are stupid. Everyone thinks you are
-					a fucking jerk. Pisces (Feb 23 - Mar 22) You are a pioneer type and
-					think most people are dickheads. You are quick to reprimand,
-					impatient and full of advice. You do nothing but piss-off everyone
-					you come in contact with. You are a prick.</p>
-				<table class=table>
-				<tr>
-				<td>
-					<label> <input type="radio" name="optionsRadios"
-						id="optionsRadios1" value="option1" checked> Option one is
-						this and that&mdash;be sure to include why it's great
-					</label>
-				<tr><td>
-					<label> <input type="radio" name="optionsRadios"
-						id="optionsRadios2" value="option2"> Option two can be
-						something else and selecting it will deselect option one
-					</label>
-				</td>
-				</tr>
-				<tr><td>
-					<label> <input type="radio" name="optionsRadios"
-						id="optionsRadios2" value="option2"> Option two can be
-						something else and selecting it will deselect option one
-					</label>
-				</td>
-				</tr>
-				<tr><td>
-					<label> <input type="radio" name="optionsRadios"
-						id="optionsRadios2" value="option2"> Option two can be
-						something else and selecting it will deselect option one
-					</label>
-				</td>
-				</tr>
-				</table>
+		<div class="row margin">	
+			<div class="col-md-2 module">
+				<div class="padded-small margin  ">
+					<div class="qno">
+					<div class=lead>Question</div>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+					<a href=#><span class="badge">1</span></a>
+				</div>
+				</div>
 			</div>
-			
-			<p class=pull-right>
-				<a class="padded" href=#>Previous</a>
-				<a class="padded" href=#>Exit</a>
-				<a class="padded" href=#>Submit</a>
-				<a class="padded" href=#>Next</a>
-			</p>
-			<p>Time left :</p>
-			<p>Time Spent on this question:</p>
+			<div class=col-md-10>
+				<div class="module padded">
+					<div class="border padded">
+						<p class=lead>Question No: 1</p>
+						<p>Aquarius (Jan 23 - Feb 22) You have an inventive mind and
+							are inclined to be progressive. You lie a great deal. You make
+							the same mistakes repeatedly because you are stupid. Everyone
+							thinks you are a fucking jerk. Pisces (Feb 23 - Mar 22) You are a
+							pioneer type and think most people are dickheads. You are quick
+							to reprimand, impatient and full of advice. You do nothing but
+							piss-off everyone you come in contact with. You are a prick.</p>
+						<table class="table table-striped">
+							<tr>
+								<td><label> <input type="radio"
+										name="optionsRadios" id="optionsRadios1" value="option1"
+										checked> Option one is this and that&mdash;be sure to
+										include why it's great
+								</label>
+							<tr>
+								<td><label> <input type="radio"
+										name="optionsRadios" id="optionsRadios2" value="option2">
+										Option two can be something else and selecting it will
+										deselect option one
+								</label></td>
+							</tr>
+							<tr>
+								<td><label> <input type="radio"
+										name="optionsRadios" id="optionsRadios2" value="option2">
+										Option two can be something else and selecting it will
+										deselect option one
+								</label></td>
+							</tr>
+							<tr>
+								<td><label> <input type="radio"
+										name="optionsRadios" id="optionsRadios2" value="option2">
+										Option two can be something else and selecting it will
+										deselect option one
+								</label></td>
+							</tr>
+						</table>
+					</div>
+
+					<p class=pull-right>
+						<a class="padded" href=#>Previous</a> <a class="padded" href=#>Exit</a>
+						<a class="padded" href=#>Submit</a> <a class="padded" href=#>Next</a>
+					</p>
+					<p>Time left :</p>
+					<p>Time Spent on this question:</p>
+				</div>
+			</div>
 		</div>
 	</div>
-
 	<footer class="footer"> </footer>
 	<script type="text/javascript"
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
