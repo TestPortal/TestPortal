@@ -1,5 +1,5 @@
 package com.portal.dao;
 
-public interface PortalDAO {
+public interface PortalDao {
 
 }
